@@ -1,13 +1,13 @@
-var config = {
-	apiKey: "AIzaSyDU7Cddk_suODSN77BSaFAj5uSF7WDZc_A",
-	authDomain: "multirps-9190a.firebaseapp.com",
-	databaseURL: "https://multirps-9190a.firebaseio.com",
-	projectId: "multirps-9190a",
-	storageBucket: "multirps-9190a.appspot.com",
-	messagingSenderId: "771308533274"
-};
-
-firebase.initializeApp(config);
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDXMeEiVRSxf0980VaWiqZEDKYUqxqpjxw",
+    authDomain: "rps-project-ab4b4.firebaseapp.com",
+    databaseURL: "https://rps-project-ab4b4.firebaseio.com",
+    projectId: "rps-project-ab4b4",
+    storageBucket: "",
+    messagingSenderId: "345131124314"
+  };
+  firebase.initializeApp(config);
 
 var database = firebase.database(),
 		rpsRef = firebase.database().ref('/rpsgames'),
