@@ -1,5 +1,4 @@
-  // Initialize Firebase
-  var config = {
+var config = {
 	apiKey: "AIzaSyDU7Cddk_suODSN77BSaFAj5uSF7WDZc_A",
 	authDomain: "multirps-9190a.firebaseapp.com",
 	databaseURL: "https://multirps-9190a.firebaseio.com",
@@ -9,6 +8,7 @@
 };
 
 firebase.initializeApp(config);
+
 
 var database = firebase.database(),
 		rpsRef = firebase.database().ref('/rpsgames'),
